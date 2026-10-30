@@ -1,0 +1,28 @@
+{
+  "name": "@jsdoc/web-assets",
+  "version": "0.1.0",
+  "description": "CSS and JavaScript files used by JSDoc.",
+  "keywords": [
+    "jsdoc"
+  ],
+  "author": "Jeff Williams <jeffrey.l.williams@gmail.com>",
+  "homepage": "https://jsdoc.app/",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdoc/jsdoc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jsdoc/jsdoc/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  }
+}

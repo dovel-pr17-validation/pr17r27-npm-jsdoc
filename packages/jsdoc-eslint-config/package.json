@@ -1,0 +1,47 @@
+{
+  "name": "@jsdoc/eslint-config",
+  "version": "4.0.0",
+  "description": "Default ESLint configuration for JSDoc packages.",
+  "keywords": [
+    "eslint",
+    "jsdoc"
+  ],
+  "author": "Jeff Williams <jeffrey.l.williams@gmail.com>",
+  "homepage": "https://github.com/jsdoc/jsdoc#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/eslint-parser": "^8.0.7",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.7",
+    "eslint-plugin-simple-import-sort": "^14.0.0",
+    "globals": "^17.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^10.13.0",
+    "prettier": "^3.9.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdoc/jsdoc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jsdoc/jsdoc/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
+  "gitHead": "7f0b802741958e3431edc63b3a9e76412d46b1a2"
+}

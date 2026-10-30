@@ -1,0 +1,44 @@
+{
+  "name": "@jsdoc/task-runner",
+  "version": "0.2.11",
+  "description": "Task runner for JSDoc templates.",
+  "keywords": [
+    "jsdoc",
+    "task"
+  ],
+  "author": "Jeff Williams <jeffrey.l.williams@gmail.com>",
+  "homepage": "https://jsdoc.app/",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdoc/jsdoc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jsdoc/jsdoc/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./lib/*": {
+      "import": "./lib/*"
+    }
+  },
+  "dependencies": {
+    "dependency-graph": "^1.0.0",
+    "emittery": "^2.2.0",
+    "ow": "^3.1.1",
+    "p-queue": "^10.0.0"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
+  "gitHead": "7f0b802741958e3431edc63b3a9e76412d46b1a2"
+}

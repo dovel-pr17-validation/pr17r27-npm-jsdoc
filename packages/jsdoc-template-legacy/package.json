@@ -1,0 +1,61 @@
+{
+  "name": "@jsdoc/template-legacy",
+  "version": "0.1.17",
+  "description": "Legacy template from JSDoc 3.x.",
+  "keywords": [
+    "jsdoc"
+  ],
+  "author": "Jeff Williams <jeffrey.l.williams@gmail.com>",
+  "homepage": "https://github.com/jsdoc/jsdoc",
+  "license": "Apache-2.0",
+  "main": "publish.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@fontsource-variable/open-sans": "^5.3.0",
+    "@jsdoc/name": "^0.1.4",
+    "@jsdoc/salty": "^0.2.12",
+    "@jsdoc/tag": "^0.2.17",
+    "catharsis": "^0.11.0",
+    "code-prettify": "^0.1.0",
+    "color-themes-for-google-code-prettify": "^2.0.4",
+    "common-path-prefix": "^3.0.0",
+    "fast-glob": "^3.3.3",
+    "lodash": "^4.18.1",
+    "markdown-it": "^15.0.3",
+    "markdown-it-anchor": "^10.0.0"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdoc/jsdoc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jsdoc/jsdoc/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./publish.js"
+    },
+    "./lib/*": {
+      "import": "./lib/*"
+    },
+    "./plugins/*": {
+      "import": "./plugins/*"
+    },
+    "./static/*": {
+      "import": "./static/*"
+    },
+    "./tmpl/*": {
+      "import": "./tmpl/*"
+    }
+  },
+  "gitHead": "7f0b802741958e3431edc63b3a9e76412d46b1a2"
+}
